@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+body {
+    background-image: url(./background\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+.continer{
+    width: 23rem;
+    background-color: #222;
+    color: #fff;
+    border-radius: .7rem;
+    margin-top: 5rem;
+    overflow: hidden; 
+}
+.continer .searchArea{
+    width: 100%;
+    padding: .8rem .5rem;
+    background-color: #111;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.continer .searchArea input{
+    width: 17rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #111;
+    color: #dad8d8;
+}
+.continer .searchArea input :placeholder-shown{
+    color: #cbc8c8;
+
+}
+.continer .searchArea button {
+    padding: .5rem;
+    border-radius: 2rem;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.continer .searchArea button:hover{
+    opacity: 0.9;
+}
+#imgBox{
+    text-align: center;
+}
+#imgBox img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin-top: .5rem;
+    margin-bottom: .8rem;
+    
+    
+}
+.bioData p{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.bioData #bioData{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.info li{
+    list-style: none;
+    padding: .5rem;
+    background-color: bisque;
+    border-radius: 1rem;
+    color: #000;
+
+}
+.info ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.url{
+    text-align: center;
+    margin-bottom: 1rem ;
+    display: none;
+}
+.url p a{
+    color: blue;
+    
+}
+
